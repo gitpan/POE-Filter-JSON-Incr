@@ -8,7 +8,7 @@ use POE::Filter::JSON::Incr::Error;
 
 use namespace::clean -except => [qw(meta)];
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 extends our @ISA, qw(POE::Filter);
 
@@ -135,7 +135,7 @@ sub json_error {
 
 sub put {
 	my ( $self, $data ) = @_;
-	return [ map { $self->encode($_) } @$data ];
+	return [ map { $self->encode($_) . "\n" } @$data ];
 }
 
 sub get_pending {

@@ -1,13 +1,13 @@
 --- #YAML:1.0
 name:                POE-Filter-JSON-Incr
-version:             0.01
+version:             0.02
 abstract:            ~
 license:             ~
 author:              ~
 generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
-    JSON:                          2.09
+    JSON:                          2.12
     Mouse:                         0.04
     namespace::clean:              0.08
     POE::Filter:                   0
