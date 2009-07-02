@@ -1,4 +1,4 @@
-examples/echo.pl
+Changes
 lib/POE/Filter/JSON/Incr.pm
 lib/POE/Filter/JSON/Incr/Error.pm
 Makefile.PL
